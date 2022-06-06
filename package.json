@@ -1,0 +1,24 @@
+{
+  "name": "bibumbap",
+  "version": "1.0.0",
+  "description": "Bumpa css framework build using sass, and for now developed only for Bumpa internal projects. build by Bumpa Tech.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx sass src/index.scss dist/bibumbap.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bumpa-Tech/bibumbap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bumpa-Tech/bibumbap/issues"
+  },
+  "homepage": "https://github.com/Bumpa-Tech/bibumbap#readme",
+  "devDependencies": {
+    "sass": "^1.52.2"
+  }
+}
